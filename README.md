@@ -55,6 +55,8 @@ setNum = (e, num) => {
 
 > Hint: The \[\] are there so we can use a dynamic key value! This value becomes `num1` or `num2` depending on what was clicked and sent to the function from `onChange`.
 
+The above method relies on a [closure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) to determine which button is being clicked, which is a common technique in React. Can you think of another way(s) to accomplish this task without using a closure?
+
 If you decided to use buttons for your calculator, you probably want to use `onClick` instead of `onChange`, but the concepts are the same! Here is some documentation to help you choose what you want to do and how to do it:
 
 * [React form documentation](https://facebook.github.io/react/docs/forms.html)
